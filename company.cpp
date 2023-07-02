@@ -6,7 +6,7 @@
 /*   By: melkholy <melkholy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/24 19:55:29 by melkholy          #+#    #+#             */
-/*   Updated: 2023/06/29 22:00:36 by melkholy         ###   ########.fr       */
+/*   Updated: 2023/07/02 18:44:11 by melkholy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,7 @@ public:
 	}
 };
 
-class	Developer: protected Employee {
+class	Developer: public Employee {
 private:
 	std::string	FavProgrammingLang;
 
